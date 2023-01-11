@@ -1,8 +1,11 @@
 {
-  "name": "sz-api-types",
+  "name": "@shelter-zone/sz-api-types",
   "version": "1.0.0",
-  "description": "shelter zone all api types",
-  "main": "index.js",
+  "description": "SHELTER ZONE all api types",
+  "exports": {
+    "./SZUser": "./SZUser/index.ts",
+    "./SZUserProfile": "./SZUserProfile/index.ts"
+  },
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -12,8 +15,7 @@
     "url": "git+https://github.com/SHELTER-ZONE/sz-api-types.git"
   },
   "keywords": [
-    "shelter",
-    "zone"
+    "shelterzone"
   ],
   "author": "Proladon",
   "license": "ISC",
