@@ -1,10 +1,11 @@
 {
   "name": "@shelter-zone/sz-api-types",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "SHELTER ZONE all api types",
   "exports": {
     "./SZUser": "./SZUser/index.ts",
-    "./SZUserProfile": "./SZUserProfile/index.ts"
+    "./SZUserProfile": "./SZUserProfile/index.ts",
+    "./SZForm": "./SZForm/index.ts"
   },
   "devDependencies": {},
   "scripts": {
