@@ -2,21 +2,21 @@ export interface SZUser {
   key: string
   id: string
   name: string
+  type: 'bot' | 'user'
   createdAt: number
   updatedAt: number
   permissions: string[]
   roles: string[]
-  type: 'bot' | 'user'
 }
 
 export interface APISZUserCreate {
   id: string
   name: string
+  type: 'bot' | 'user'
   createdAt?: number
   updatedAt?: number
-  permissions: string[]
-  roles: string[]
-  type: 'bot' | 'user'
+  permissions?: string[]
+  roles?: string[]
 }
 
 export interface APISZUserUpdate {
@@ -33,8 +33,8 @@ export interface APISZUserQuery {
   last: string
   id?: string
   name?: string
-  roles?: string[]
   type?: 'bot' | 'user'
+  roles?: string[]
   'permissions?contains'?: string
   'createdAt?lt'?: number
   'createdAt?gt'?: number
