@@ -1,0 +1,24 @@
+{
+  "name": "sz-api-types",
+  "version": "1.0.0",
+  "description": "shelter zone all api types",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SHELTER-ZONE/sz-api-types.git"
+  },
+  "keywords": [
+    "shelter",
+    "zone"
+  ],
+  "author": "Proladon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SHELTER-ZONE/sz-api-types/issues"
+  },
+  "homepage": "https://github.com/SHELTER-ZONE/sz-api-types#readme"
+}
