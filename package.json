@@ -5,7 +5,8 @@
   "exports": {
     "./SZUser": "./SZUser/index.ts",
     "./SZUserProfile": "./SZUserProfile/index.ts",
-    "./SZForm": "./SZForm/index.ts"
+    "./SZForm": "./SZForm/index.ts",
+    "./SZEntryCheck": "./SZEntryCheck/index.ts"
   },
   "devDependencies": {},
   "scripts": {
