@@ -1,4 +1,4 @@
-export interface SZLog {
+export type SZLog = {
   key: string
   userName: string
   userId: string
@@ -9,7 +9,7 @@ export interface SZLog {
   __expires: number | null
 }
 
-export interface APISZLogCreate {
+export type APISZLogCreate = {
   userName: string
   userId: string
   from: string

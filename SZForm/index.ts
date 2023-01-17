@@ -22,7 +22,7 @@ export type APISZFormCreate = {
   sendChannel: string
 }
 
-export interface APIFormUpdate {
+export type APIFormUpdate = {
   name?: string
   description?: string
   expDate?: string | null

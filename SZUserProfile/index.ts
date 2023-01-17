@@ -1,4 +1,4 @@
-export interface SZUserProfile {
+export type SZUserProfile = {
   key: string
   name: string
   userId: string
@@ -10,7 +10,7 @@ export interface SZUserProfile {
   role: 'user' | 'admin'
 }
 
-export interface APISZUserProfileCreate {
+export type APISZUserProfileCreate = {
   name: string
   userId: string
   createdAt?: number
@@ -21,7 +21,7 @@ export interface APISZUserProfileCreate {
   role?: 'user' | 'admin'
 }
 
-export interface APISZUserProfileUpdate {
+export type APISZUserProfileUpdate = {
   name?: string
   title?: string[] | null
   createdAt?: number

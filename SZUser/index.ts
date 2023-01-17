@@ -1,4 +1,4 @@
-export interface SZUser {
+export type SZUser = {
   key: string
   id: string
   name: string
@@ -9,7 +9,7 @@ export interface SZUser {
   roles: string[]
 }
 
-export interface APISZUserCreate {
+export type APISZUserCreate = {
   id: string
   name: string
   type: 'bot' | 'user'
@@ -19,7 +19,7 @@ export interface APISZUserCreate {
   roles?: string[]
 }
 
-export interface APISZUserUpdate {
+export type APISZUserUpdate = {
   name?: string
   createdAt?: number
   updatedAt?: number
@@ -28,7 +28,7 @@ export interface APISZUserUpdate {
   type?: 'bot' | 'user'
 }
 
-export interface APISZUserQuery {
+export type APISZUserQuery = {
   limit: number
   last: string
   id?: string

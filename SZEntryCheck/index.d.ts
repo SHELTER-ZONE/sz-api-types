@@ -1,10 +1,10 @@
-export interface APISZEntryCheckEncode {
+export type APISZEntryCheckEncode = {
   ip: string
   id: string
   country: string
   source: string
 }
 
-export interface APISZEntryCheckDecode {
+export type APISZEntryCheckDecode = {
   token: string
 }

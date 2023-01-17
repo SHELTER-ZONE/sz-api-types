@@ -1,13 +1,13 @@
-export interface APISZOAuthGetLoginUrl {
+export type APISZOAuthGetLoginUrl = {
   redirectUri: string
 }
 
-export interface APISZOAuthGetAccessToken {
+export type APISZOAuthGetAccessToken = {
   redirectUri: string
   code: string
 }
 
-export interface APISZOAuthLogin {
+export type APISZOAuthLogin = {
   accessToken: string
   userId: string
 }
