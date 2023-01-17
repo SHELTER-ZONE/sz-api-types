@@ -1,6 +1,6 @@
 {
   "name": "@shelter-zone/sz-api-types",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "SHELTER ZONE all api types",
   "exports": {
     "./SZUser": "./SZUser/index.ts",

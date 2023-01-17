@@ -6,6 +6,7 @@ export type SZUserProfile = {
   createdAt: number
   updatedAt: number
   rep: number
+  activity: number
   org: any | null
   role: 'user' | 'admin'
 }
@@ -17,6 +18,7 @@ export type APISZUserProfileCreate = {
   updatedAt?: number
   title?: string[] | null
   rep?: number
+  activity?: number
   org?: any | null
   role?: 'user' | 'admin'
 }
@@ -27,6 +29,7 @@ export type APISZUserProfileUpdate = {
   createdAt?: number
   updatedAt?: number
   rep?: number
+  activity?: number
   org?: any | null
   role?: 'user' | 'admin'
 }
