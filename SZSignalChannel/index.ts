@@ -1,23 +1,24 @@
 export type SZSignalChannelConfig = {
-  key: string
+  type: string
+  guildId: string
   config: {
     dashbaord: string | null
   }
 }
 
 export type APISZSignalChannelCreate = {
-  key: string
+  type: string
+  guildId: string
   config: {
     dashbaord: string | null
   }
 }
 
 export type APISZSignalChannelUpdate = {
+  guildId: string
   'config.dashbaord': string | null
 }
 
 export type SZSignalChannel = {
-  config: {
-    dashbaord: string | null
-  }
+  dashbaord: string | null
 }

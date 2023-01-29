@@ -1,5 +1,6 @@
 export type SZJoinTypeConfig = {
-  key: string
+  type: string
+  guildId: string
   config: {
     permanentRoleID: string | null
     temporaryRoleID: string | null
@@ -7,7 +8,8 @@ export type SZJoinTypeConfig = {
 }
 
 export type APISZJoinTypeConfigCreate = {
-  key: string
+  type: string
+  guildId: string
   config?: {
     permanentRoleID: string | null
     temporaryRoleID: string | null
@@ -15,11 +17,7 @@ export type APISZJoinTypeConfigCreate = {
 }
 
 export type APISZJoinTypeConfigUpdate = {
+  guildId: string
   'config.permanentRoleID': string | null
   'config.temporaryRoleID': string | null
-}
-
-export type SZJoinType = {
-  permanentRoleID: string | null
-  temporaryRoleID: string | null
 }

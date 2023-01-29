@@ -1,5 +1,6 @@
 export type SZDailyCheckConfig = {
-  key: string
+  type: string
+  guildId: string
   config: {
     autoDailyCheckChannels: string[] | null
     commandDailyCheckChannel: string | null
@@ -7,7 +8,8 @@ export type SZDailyCheckConfig = {
 }
 
 export type APISZDailyCheckConfigCreate = {
-  key: string
+  type: string
+  guildId: string
   config?: {
     autoDailyCheckChannels: string[] | null
     commandDailyCheckChannel: string | null
@@ -15,6 +17,7 @@ export type APISZDailyCheckConfigCreate = {
 }
 
 export type APISZDailyCheckConfigUpdate = {
+  guildId: string
   'config.autoDailyCheckChannels'?: string[] | null
   'config.commandDailyCheckChannel'?: string | null
 }
