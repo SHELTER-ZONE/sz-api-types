@@ -1,7 +1,9 @@
 export type SZUser = {
   id: string
   userId: string
-  lastRecord: Date
+  type: 'user' | 'bot'
+  createAt: Date
+  updateAt: Date
 }
 export type APISZUserGet = {
   userId?: string
