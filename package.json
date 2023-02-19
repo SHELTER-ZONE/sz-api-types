@@ -1,8 +1,9 @@
 {
   "name": "@shelter-zone/sz-api-types",
-  "version": "1.3.2",
+  "version": "2.0.0",
   "description": "SHELTER ZONE all api types",
   "exports": {
+    "./v2": "./v2/index.ts",
     "./SZDailyCheck": "./SZDailyCheck/index.ts",
     "./SZSignalChannel": "./SZSignalChannel/index.ts",
     "./SZJoinType": "./SZJoinType/index.ts",
