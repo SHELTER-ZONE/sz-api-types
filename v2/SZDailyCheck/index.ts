@@ -4,11 +4,12 @@ export type SZDailyCheckRecord = {
   lastRecord: Date
 }
 export type APISZDailyCheckRecordGet = {
-  start: number
-  limit: number
-  sort: 'asc' | 'desc'
-  from: string | Date
-  end: string | Date
+  userId?: string
+  start?: number
+  limit?: number
+  sort?: 'asc' | 'desc'
+  from?: string | Date
+  end?: string | Date
 }
 export type APISZDailyCheckRecordFind = {
   userId: string
