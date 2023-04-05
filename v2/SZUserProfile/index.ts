@@ -26,11 +26,15 @@ export type APISZUserProfileCreate = {
   userId: string
   name: string
   rep?: number
+  country: string
+  from: string
 }
 export type APISZUserProfileUpdate = {
   id: string
   rep?: number
   name?: string
+  country?: string
+  from?: string
 }
 export type APISZUserProfileUpdateQuery = {
   byUserId: boolean
